@@ -1,21 +1,44 @@
-HEART PATIENT DATA PROJECT
+# Heart Patient Data Project
 
-SUMMARY:
+## Summary
 
-The Real-world Heart Patient Data Project was a significant undertaking where I leveraged my skills in data analytics and machine learning to analyze a comprehensive dataset related to heart patients. The dataset included a multitude of predictor variables that aimed to predict whether an individual had heart disease or not. 
+The **Real-world Heart Patient Data Project** was a significant undertaking where I leveraged my skills in data analytics and machine learning to analyze a comprehensive dataset related to heart patients. The dataset included a multitude of predictor variables aimed at predicting whether an individual had heart disease or not.
 
-DETAILS:
+## Project Details
 
-The primary objective was to develop accurate predictive models to aid in diagnosing and understanding the factors influencing heart disease. So first, I wrote an introduction regarding the topic and my dataset and how I aimed to carry out the project.
+### Data Exploration
+- **Initial Exploration:** Conducted an in-depth exploration of the dataset, examining variable distributions, identifying outliers, and assessing data quality.
+- **Preprocessing:** Loaded necessary libraries, checked dataset dimensions, and handled any missing data.
+- **Exploratory Data Analysis (EDA):** Focused on the predictor variables most relevant to the target variable, exploring their relationships with each other and with the target variable. This step provided initial insights and allowed for inferences, particularly regarding variable correlations.
 
-**Data Exploration:** Conducted an in-depth exploration of the dataset, understanding the distribution of variables, identifying outliers, and assessing data quality. Loaded in my libraries, checked dimensions, checked for missing data. I then conducted exploratory data analysis on the predictor variables that I felt to be most relevant or important, on their own, in relation to the target variable, or in relation to one another. This allowed me to gain some initial results and knowledge, and make inferences, especially regarding the correlations between predictor variables themselves, as well as the target variable.
+### Data Splitting
+- **Training and Testing Split:** Split the data into training and testing sets to facilitate model validation.
+- **Recipes:** Developed and applied data preprocessing recipes.
+- **Stratified Sampling:** Ensured balanced representation in the training and testing datasets.
+- **Correlation Analysis:** Explored correlations between continuous variables and the target variable to inform feature selection.
 
-**Data Splitting:** This consisted of splitting the data into training and testing data, creating recipes, exploring correlations between continuous variables, predicting the outcome variable using our recipes, and stratified sampling.
+### Model Building
+- **Machine Learning Models:** Developed multiple predictive models including:
+  - **Logistic Regression**
+  - **Decision Trees**
+  - **Random Forests**
+  - **K-Nearest Neighbors (KNN)**
+  - **Linear Discriminant Analysis (LDA)**
+  - **Quadratic Discriminant Analysis (QDA)**
 
-**Model Building:** Developed and implemented machine learning models, including but not limited to decision trees, random forests, and other algorithms, to predict the likelihood of heart disease based on the given features. Logistic regression model, Linear Discriminant Analysis Model for classification, quadratic discriminant analysis model for classification, KNN model (or k-nearest neighbors model). 
+### Model Fitting and Tuning
+- **Model Tuning:** Enhanced model accuracy using hyperparameter optimization.
+- **Cross-Validation:** Employed techniques like cross-validation with random forests, ranger, and XGBoost engines, fitting models to folded data for robust evaluation.
 
-**Model Fitting and Tuning:** Conducted rigorous model tuning to enhance predictive accuracy, employing techniques such as hyperparameter optimization. Cross validation with random forests, ranger and xgboost engines, models fitted to folded data.
+### Model Selection and Performance Evaluation
+- **Performance Metrics:** Evaluated model performance based on metrics such as the area under the ROC curve (AUC) for both training and testing datasets.
+- **Heatmaps:** Used heatmaps to visualize model performance and understand predictor relationships.
 
-**Model Selection and Performance Evaluation:** Evaluated the performance of different models, selecting the most effective one based on metrics like area under ROC curve on training data and testing data, heatmaps. 
+### Insights and Recommendations
+- **Key Predictors:** Identified significant predictors of heart disease from the model outcomes.
+- **Actionable Recommendations:** Provided recommendations based on the insights generated from the analysis.
+- **Conclusion:** Summarized the findings and insights, offering potential real-world applications of the model for heart disease prediction.
 
-**Insights and Recommendations:** Derived meaningful insights from the analysis, highlighting significant predictors of heart disease. Generated actionable recommendations based on the model outcomes, and wrote conclusion regarding all of this.
+## Conclusion
+
+This project showcased my proficiency in machine learning, model evaluation, and predictive analytics in the healthcare domain. The **Heart Patient Data Project** demonstrates my ability to work with complex datasets and derive actionable insights, making a tangible impact in the prediction and diagnosis of heart disease.
