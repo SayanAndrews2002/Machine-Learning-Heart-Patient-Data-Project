@@ -1,4 +1,4 @@
-# Heart Patient Data Project
+# Machine Learning Heart Patient Classification
 
 ## Summary
 
